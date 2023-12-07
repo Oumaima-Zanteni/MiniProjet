@@ -1,0 +1,85 @@
+.bg{
+  background-color: #9fbae7;
+}
+.table-responsive table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.chambre{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+ margin: 10px;
+
+}
+.mat-input-element {
+  border-color: gainsboro;
+  border-radius: 7px;
+  width:650px;
+  height: 35px;
+}
+
+.notification {
+  background-color: #eedddd;
+  border: 1px solid #fffdfd;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 7px;
+
+}
+
+button {
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: background-color 0.3s;
+}
+
+button.confirm-button {
+  background-color: #163a16;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+button.cancel-button {
+  background-color: #fff;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+button.cancel-button:hover {
+  background-color: #eadcdc;
+}
+
+button.confirm-button:focus,
+button.cancel-button:focus {
+  outline: none;
+  background-color: #f38f8f;
+
+}
+
+.cardWithShadow.notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  font-size: 28px;
+  z-index: 9999;
+  background-color: #fdf3f3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
